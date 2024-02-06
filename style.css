@@ -18,12 +18,16 @@ html {
     height: 55%;
     width: 80%;
     margin-top: 50px;
+    border-radius: 1%;
+    margin: 25px 0px 25px 0px;
 }
 
 .kısaKolon {
     height: 40%;
     width: 80%;
     margin-top: 30px;
+    border-radius: 1%;
+    margin: 25px 0px 25px 0px;
 }
 
 .center {

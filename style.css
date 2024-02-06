@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navBar {
+    background-color: #20303A;
+}
+
+.navbarText {
+    margin-left: auto;
+}
+
+.uzunKolon {
+    height: 55%;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.kısaKolon {
+    height: 40%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.btn-style {
+    background-color: #20303A;
+    border-color: #20303A;
+    border-radius: 0px;
+}
+
+
+footer {
+    border-radius: 7px;
+    margin-bottom: 10px;
+
+}
+
+#backtotop {
+    bottom: 20px;
+    right: 20px;
+    display: scroll;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #20303A;
+    border-radius: 8%;
+
+
+}
+
+#backtotop i {
+    font-size: 40px;
+    transform: translate(0%, 10%);
+    color: rgb(240, 240, 240);
+    transition: color .6s;
+}
+
+#backtotop:hover {
+    background-color: rgb(240, 240, 240);
+    ;
+}
+
+#backtotop i:hover {
+    color: #20303A;
+}

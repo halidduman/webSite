@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+p {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: bold;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,6 +45,8 @@ html {
 .navbarText {
     margin-left: auto;
 }
+
+
 
 .anaBaslik {
     text-align: center;
@@ -80,6 +114,10 @@ footer {
 
 }
 
+footer a {
+    color: #ffffff
+}
+
 #backtotop {
     bottom: 20px;
     right: 20px;
@@ -115,7 +153,7 @@ footer {
     color: aliceblue;
     width: 100%;
     min-height: 100%;
-    
+
 }
 
 .icon {
@@ -151,20 +189,15 @@ footer {
 }
 
 .info-title {
-   position:absolute;
-   left:10%;
-   top:250px;
+    position: absolute;
+    left: 10%;
+    top: 250px;
     font-size: 100px;
-     color: aliceblue;
-     border-style: solid;
-     border-width: 1px;
-     padding: 10px 50px 20px 50px;
-     box-shadow: rgba(255, 255, 255, 0.4)
-      -5px 5px, rgba(208, 208, 208, 0.3)
-       -10px 10px, rgba(136, 136, 136, 0.2)
-        -15px 15px, rgba(88, 88, 88, 0.1)
-         -20px 20px, rgba(50, 50, 50, 0.05)
-          -25px 25px;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: rgba(255, 255, 255, 0.4) -5px 5px, rgba(208, 208, 208, 0.3) -10px 10px, rgba(136, 136, 136, 0.2) -15px 15px, rgba(88, 88, 88, 0.1) -20px 20px, rgba(50, 50, 50, 0.05) -25px 25px;
 }
 
 /* .navButton {

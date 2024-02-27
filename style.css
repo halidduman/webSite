@@ -212,3 +212,36 @@ footer {
     background-color: #20303A;
     color: white
 } */
+
+.kayan-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.kayan-content {
+    display: flex;
+    animation: kaydir 15s linear infinite;
+    /* Animasyon süresi ve tipi burada ayarlanabilir */
+}
+
+.kayan-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes kaydir {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marka {
+    margin-left: 50px;
+    height: 50px;
+}

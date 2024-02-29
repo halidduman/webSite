@@ -350,3 +350,15 @@ textarea {
   align-items: center; /* İkonları dikeyde ortala */
   gap: 10px;
 }
+
+.logo {
+  padding-right: 10px;
+  margin-left: 0px;
+  width: 95px;
+}
+.logo-2 {
+  margin-top: 5px;
+  padding-left: 10px;
+  margin-left: 0px;
+  width: 200px;
+}

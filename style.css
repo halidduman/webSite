@@ -70,7 +70,7 @@ html {
 }
 
 .kapsayici {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(249, 249, 249);
   border-radius: 7px;
   padding: 40px 0px 40px 0px;
   border-style: solid;
@@ -341,4 +341,10 @@ textarea {
   padding-left: 10px;
   margin-left: 0px;
   width: 150px;
+}
+
+/* footer hızlı linkler */
+footer ul li a:hover {
+  color: rgb(181, 179, 179);
+  text-decoration: none;
 }

@@ -20,7 +20,7 @@
 
 /* Üzerine Gelindiğinde */
 .navbar-nav a:hover {
-  color: #999 !important; /* Gri renk */
+  color: #a2a2a2 !important; /* Gri renk */
 }
 
 /* Tıklanan Durumda */
@@ -28,4 +28,3 @@
 .navbar-nav a:focus {
   color: #666 !important; /* Daha koyu gri renk */
 }
-

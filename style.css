@@ -36,6 +36,7 @@ html {
 }
 
 .navBar {
+  position: fixed;
   /* background-color: #20303a; */
   background: rgb(13, 19, 23);
   background: linear-gradient(
@@ -114,30 +115,33 @@ footer a {
 }
 
 #backtotop {
+  position: fixed;
   bottom: 20px;
   right: 20px;
-  display: scroll;
-  position: fixed;
-  height: 50px;
   width: 50px;
-  text-align: center;
-  background-color: #20303a;
-  border-radius: 8%;
-}
-
-#backtotop i {
-  font-size: 40px;
-  transform: translate(0%, 10%);
-  color: rgb(240, 240, 240);
-  transition: color 0.6s;
+  height: 50px;
+  border-radius: 50%; /* Kare yerine dairesel form için */
+  background-color: #e1e1e1;
+  z-index: 100; /* Düğmenin diğer elementlerin üzerinde görünmesi için */
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7; /* Başlangıçta biraz şeffaf olması için */
 }
 
 #backtotop:hover {
   background-color: rgb(240, 240, 240);
+  opacity: 1;
+  cursor: pointer;
 }
 
-#backtotop i:hover {
+#backtotop i {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
   color: #20303a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer {
@@ -312,6 +316,17 @@ textarea {
   text-align: center;
   margin-top: 30px;
   color: #20303a;
+}
+@media (max-width: 768px) {
+  .iletisim-border p {
+    font-size: smaller;
+  }
+}
+
+.iletisim-border {
+  border-style: solid;
+  border-width: 1px;
+  margin: 1% 4.1%;
 }
 
 .iletisim-icon p {

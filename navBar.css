@@ -1,0 +1,31 @@
+.navBar {
+  background: rgb(13, 19, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 19, 23, 1) 0%,
+    rgba(19, 29, 34, 1) 15%,
+    rgba(32, 48, 58, 1) 100%
+  );
+}
+
+.navbar-brand img {
+  width: 100px; /* Logo genişliği */
+  height: auto; /* Otomatik yükseklik ayarı */
+}
+
+.navbar-nav a {
+  color: white !important; /* Varsayılan yazı rengi */
+  transition: color 0.3s ease; /* Geçiş efekti */
+}
+
+/* Üzerine Gelindiğinde */
+.navbar-nav a:hover {
+  color: #999 !important; /* Gri renk */
+}
+
+/* Tıklanan Durumda */
+.navbar-nav a:active,
+.navbar-nav a:focus {
+  color: #666 !important; /* Daha koyu gri renk */
+}
+

@@ -34,23 +34,6 @@ a {
 html {
   scroll-behavior: smooth;
 }
-
-.navBar {
-  position: fixed;
-  /* background-color: #20303a; */
-  background: rgb(13, 19, 23);
-  background: linear-gradient(
-    90deg,
-    rgba(13, 19, 23, 1) 0%,
-    rgba(19, 29, 34, 1) 12%,
-    rgba(32, 48, 58, 1) 53%
-  );
-}
-
-.navbarText {
-  margin-left: auto;
-}
-
 .anaBaslik {
   text-align: center;
   height: 25%;
@@ -324,6 +307,7 @@ textarea {
 }
 
 .iletisim-border {
+  border-radius: 8px;
   border-style: solid;
   border-width: 1px;
   margin: 1% 4.1%;

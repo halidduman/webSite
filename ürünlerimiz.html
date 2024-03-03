@@ -11,6 +11,7 @@
     />
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="navBar.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -27,44 +28,37 @@
 
   <body id="body">
     <!-- navBar start (en üst kısım) ------------------------------------------------------------------------------------------>
-    <nav class="navbar navbar-light navBar">
+    <nav class="navbar navbar-expand-lg navbar-light navBar">
       <a class="navbar-brand p-0" href="index.html">
         <img
           src="image/LOGO-DECOMAESTRO.svg"
           width="70"
           height="100"
-          class="d-inline-block align-top logo"
+          class="d-inline-block align-top logo animasyonluGorsel"
           alt=""
           loading="lazy"
         />
       </a>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="text-white navbar-brand" href="index.html">AnaSayfa</a>
-        <button
-          class="navbar-toggler bg-light"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="text-white navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="text-white navbar-nav">
-            <a
-              class="text-white nav-link active text-secondary"
-              href="ürünlerimiz.html"
-              >Ürünlerimiz <span class="sr-only">(current)</span></a
-            >
-            <a class="text-white nav-link" href="hakkimizda.html">Hakkımızda</a>
-            <a class="text-white nav-link" href="iletisim.html">İletişim</a>
-          </div>
+      <button
+        class="navbar-toggler bg-light"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="text-white navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="index.html">AnaSayfa</a>
+          <a class="nav-link" href="ürünlerimiz.html">Ürünlerimiz</a>
+          <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          <a class="nav-link" href="iletisim.html">İletişim</a>
         </div>
-      </nav>
+      </div>
     </nav>
-
     <!-- navBar end (en üst kısım) --------------------------------------------------------------------------------->
     <!-- görsel ---------------------------------------------------->
     <div style="position: relative">
@@ -412,13 +406,15 @@
               </li>
             </ul>
           </div>
+          <div>
+            <img class="logo-2" src="image/DECOMAESTRO-2-WHİTE.svg" alt="" />
+          </div>
         </div>
       </div>
     </footer>
     <!-- yukari dugmesi ------------------------------------->
-    <a id="backtotop" href="#">
+    <a id="backtotop" href="#" title="YUKARI ÇIK">
       <i class="fa-solid fa-angle-up"></i>
-    </a>
     </a>
   </body>
 

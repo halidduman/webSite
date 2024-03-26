@@ -48,7 +48,7 @@ html {
   margin: 30px 0px 30px 0px;
 }
 
-.altBaslik{
+.altBaslik {
   text-align: center;
   height: 25%;
   padding-top: 20px;
@@ -398,4 +398,55 @@ footer ul li a:hover {
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.responsive-heading {
+  top: 2em;
+  left: 1em;
+  z-index: 1;
+  position: absolute;
+  font-size: 5em; /* Başlangıç font büyüklüğü */
+  max-width: 100%; /* Konteynerin maksimum genişliği */
+  width: auto; /* Konteynerin otomatik genişliği */
+  color: #20303a;
+}
+
+/* Ekran boyutu küçüldükçe font boyutunu azalt */
+@media (max-width: 768px) {
+  .responsive-heading {
+    top: 2em;
+    left: 1em;
+    z-index: 1;
+    position: absolute;
+    font-size: 2.5em;
+    color: #20303a;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-heading {
+    top: 2em;
+    left: 1em;
+    z-index: 1;
+    position: absolute;
+    font-size: 1.5em;
+    color: #20303a;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Başlık etiketinin animasyonunu tanımla */
+.animated-heading {
+  opacity: 0; /* Başlangıçta görünmez olsun */
+  animation: fadeInUp 1s ease forwards; /* Animasyonu ekle */
 }
